@@ -1,0 +1,56 @@
+
+
+  <div class="cont r" id="back">
+    <div class='cont r wider bt'>
+      <div class='cont wide head-row'>
+        <div class='cont r three-point-five-pad-left'>
+            <%= link_to 'Mascot Company', root_path, class:"nav-brand white", id:"logo"%>
+        </div>
+        
+          <%= link_to 'Test Page', home_test_path, class:"nav-link white lfg cent nav-item-pad-bot" %>
+            
+          <%= link_to 'Merchandise', home_merch_path, class:"nav-link white lfg cent nav-item-pad-bot" %>
+        
+        
+
+          <% menu_items = [
+            { label: 'Our Mission', url: home_mission_path , targ: "" },
+            { label: 'Our History', url: home_history_path , targ: "" },
+            { label: 'Our Leadership', url: home_leadership_path , targ: "" },
+            { label: 'Our Socials', url: home_socials_path , targ: "" },
+            { label: 'The Tradition of Reveille', url: 'https://reveille.tamu.edu' , targ: :_blank },
+
+          ] %>
+
+          
+
+
+
+          <div class="dropdown cont col c one-pad-bot">
+            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Us
+            </button>
+            <div class="dropdown-menu cont col" id="dropdownMenuButton" aria-labelledby="dropdownMenuButton">
+              <% menu_items.each do |item| %>
+                <%= link_to item[:label], item[:url], class: "dropdown-item white cr", target:item[:targ] %>
+              <% end %>
+            </div>
+          </div>
+
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script>
+            $(document).ready(function() {
+              $('.dropdown-toggle').next('.dropdown-menu').toggle();
+              $('.dropdown-toggle').click(function() {
+                $(this).next('.dropdown-menu').toggle();
+              });
+            });
+          </script>
+
+        </div>
+      </div>
+      <div class='cont r end'>
+        <%= image_tag "rebel.png", class:"nav-pic"%>
+      </div>
+    </div>
+  </div>

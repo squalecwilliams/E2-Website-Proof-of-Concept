@@ -1,0 +1,417 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ .column {
+    float:inherit;
+    width: 50%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #full {
+    margin: 0px;
+  }
+  
+  
+  .row::after {
+    align-content: space-around;
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .bckgrnd {
+    height: 150vh;
+    background-color: #800000;
+    background-image: url(https://logos-world.net/wp-content/uploads/2021/11/Texas-AM-Aggies-Logo-1972-1980.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 7vh;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+ 
+
+  #back {
+    background-color: #800000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .white {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .bl {
+    color: black;
+    font-family: bazooka;
+    text-decoration: none;
+  }
+
+  .maroon {
+    color: maroon;
+    text-decoration: none;
+  }
+
+  #logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    border-right: whitesmoke;
+    padding-bottom: 7%;
+    align-self: center;
+  }
+
+  .merch-column {
+    float: left;
+    width: auto;
+    padding: 10px;
+  }
+
+  .m-label {
+    padding-left: 5%;
+  }
+  
+  #RRL {
+    justify-self: center;
+    color: aliceblue;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+  
+  .merch-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    padding-top: 2%;
+  }
+
+  .head-row {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .title {
+    position: center;
+    }
+
+  .rebel {
+    background-color: whitesmoke;
+    height: 100vh;
+    background-image: url("rebel.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 7vh;
+    background-attachment: fixed;
+    background-size: contain;
+  }
+
+  .merch {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: whitesmoke;
+  }
+
+  .merch-link {
+    font-family: boulder;
+    font-size: xx-large;
+    color: whitesmoke;
+    justify-self: center;
+  }
+
+  .mar-back {
+    background-color: #800000;
+  }
+
+  .w-back {
+    background-color: whitesmoke;
+  }
+
+  .butt {
+    justify-content: space-evenly;
+    padding: 1.5%;
+    align-content: center;
+  }
+
+  .m {
+    width: 22.5%;
+    height: 35%;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+  .black {
+    color:black;
+    font-family: bazooka;
+    padding-top: 15px;
+    padding-left: 5px;
+  }
+
+  .cont {
+    display: flex;
+  }
+
+  .p-top{
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 7.5%;
+  }
+  .cont-b {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    height: auto;
+    justify-self: center;
+    
+  }
+
+  .cont-m {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    height: auto;
+    justify-self: center;
+    
+  }
+
+  .col {
+    flex-direction: column;
+  }
+
+  .r {
+    flex-direction: row;
+  }
+
+  .CoC {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .cent {
+    align-self: center;
+  }
+
+  .lfg {
+    font-size: larger;
+  }
+
+  .b-out {
+    justify-items: flex-start;
+    align-content: space-between;
+  }
+  .b-in {
+    width: 56%;
+    
+  }
+
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .corps-trip {
+    align-self: center;
+    width: 20%;
+  }
+
+  .wrap-start {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  .social {
+    width: 100%;
+    padding-right: 5%;
+    justify-content: space-between;
+  }
+  .three-point-five-pad-left {
+    padding-left: 3.5%;
+  }
+  .three-point-five-pad-right {
+    padding-right: 3.5%;
+  }
+
+
+  .one-pad-bot {
+    padding-bottom: 2%;
+    width: 20%;
+  }
+
+  .insta {
+    inline-size: 50%;
+    justify-content: space-between;
+  }
+
+  .end {
+    justify-content: flex-end;
+  }
+
+  .wide{
+    width: 100%;
+  }
+  .bt {
+    justify-self: space-between;
+  }
+
+  .cr {
+    justify-self: center;
+  }
+
+  .lead {
+    background-image: url(leader3.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 5%;
+  }
+  .int {
+    align-self: flex-end;
+  }
+  
+  .large {
+    height:fit-content;
+    width:50%;
+    align-content: center;
+    justify-content: center;
+  }
+  .small {
+    size: 20%;
+  }
+
+  .c {
+    justify-content:center;
+  }
+
+  .hd {
+    padding-block-start: 10%;
+    padding-right: 5%;
+    width: 100%;
+    justify-content: first baseline;
+    align-items: center;
+    position: relative;
+    
+  }
+
+  .hdt {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1;
+    font-family: bazooka;
+    font-size: 400%;
+  }
+
+  
+  
+
+  .nav-pic {
+    height:10%;
+    width: 10%;
+  }
+
+  #nav-bar {
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .fit {
+    height:fit-content;
+    width: fit-content;
+  }
+
+  #head-height {
+    height: 100%;
+  }
+
+  .wider {
+    width: 80%;
+  }
+
+  .nav-pic {
+    align-self: center;
+    width: 12.5%;
+    height: 90%;
+    padding-bottom: 2.5%;
+  }
+
+  .nav-item-pad-bot {
+    padding-bottom: 2%;
+  }
+  .nav-item-pad-top {
+    padding-top: 10%;
+  }
+
+
+  .miss{
+    align-content: center;
+    justify-content: center;
+  }
+
+  .creed {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    justify-self: center;
+  }
+
+  .invis {
+    opacity: 0;
+  }
+
+  .sticker-bck {
+    height: 80vh;
+    background-image: url("sticker_1.png");
+    background-repeat: no-repeat;
+    background-size: 38%;
+    background-position: center;
+    background-position-y: 18vh;
+    background-attachment: fixed;
+    
+  }
+
+  .hist-bck {
+    height: 100vh;
+    padding-bottom: 5%;
+    background-image: url("corps_trip.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+  }
+
+  .reb-1 {
+    width: min-content;
+    height: min-content;
+    justify-self: center;
+    align-self: center;
+  }
+  
+ 
